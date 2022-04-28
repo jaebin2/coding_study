@@ -1,7 +1,7 @@
-# LeetCode 336. Palindrome Pairs / Time Limit Exceeded
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
         Output = []
+
         for i,v in enumerate(words):
             for j,m in enumerate(words):
                 if i != j:

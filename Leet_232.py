@@ -1,5 +1,4 @@
 class MyQueue:
-
     def __init__(self):
         self.count = 0
         self.di = {}

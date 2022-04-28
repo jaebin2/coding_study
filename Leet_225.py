@@ -1,5 +1,4 @@
 class MyStack:
-
     def __init__(self):
         self.ary = []
 
@@ -12,7 +11,6 @@ class MyStack:
     def top(self) -> int:
         return self.ary[-1]
         
-
     def empty(self) -> bool:
         if self.ary == []:
             return True
